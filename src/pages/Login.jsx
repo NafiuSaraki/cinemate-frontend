@@ -9,7 +9,7 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('https://cinemate-frontend.onrender.com/api/login', {
+      const res = await axios.post('https://cinmate-backend.onrender.com/api/login', {
         email,
         password,
       });
