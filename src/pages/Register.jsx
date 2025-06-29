@@ -10,7 +10,7 @@ const Register = () => {
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('https://cinemate-frontend.onrender.com/api/register', {
+      const res = await axios.post('https://cinmate-backend.onrender.com/api/register', {
         username,
         email,
         password,
